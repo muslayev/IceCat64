@@ -17,3 +17,6 @@
 [Fedora Package Sources](https://src.fedoraproject.org/rpms/icecat/), thanks to [Sagitter](https://fedoraproject.org/wiki/User:Sagitter)<br />
 ### How to Update
 ![update](https://raw.githubusercontent.com/muslayev/iceweasel-win64/master/update.png)
+
+1. Error: add-on appears to be coppupted
+set extensions.allowPrivateBrowsingByDefault to false
