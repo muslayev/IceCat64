@@ -27,4 +27,4 @@ pref("general.appversion.override", "78.0");<br />
 pref("general.buildID.override", "Gecko/20100101");<br />
 pref("general.oscpu.override", "Windows NT 6.1");<br />
 pref("general.platform.override", "Win32");<br />
-It would be better to create a defect [here](https://git.savannah.gnu.org/cgit/gnuzilla.git)<br />
+It would be better to create a defect [here](https://lists.gnu.org/mailman/listinfo/bug-gnuzilla)<br />
