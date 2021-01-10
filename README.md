@@ -19,4 +19,12 @@
 ![update](https://raw.githubusercontent.com/muslayev/iceweasel-win64/master/update.png)<br />
 ### How to fix some issues<br />
 1. Error: add-on appears to be coppupted<br />
-set extensions.allowPrivateBrowsingByDefault to false
+set extensions.allowPrivateBrowsingByDefault to false<br />
+2. Cloudflare: Infinite loop<br />
+Need to delete these strings from icecat.js in omni.jar:
+pref("general.appname.override", "Netscape");
+pref("general.appversion.override", "78.0");
+pref("general.buildID.override", "Gecko/20100101");
+pref("general.oscpu.override", "Windows NT 6.1");
+pref("general.platform.override", "Win32");
+It would be better to create a defect [here](https://git.savannah.gnu.org/cgit/gnuzilla.git).
