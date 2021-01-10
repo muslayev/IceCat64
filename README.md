@@ -19,7 +19,7 @@
 ![update](https://raw.githubusercontent.com/muslayev/iceweasel-win64/master/update.png)<br />
 ### How to fix some issues<br />
 1. Error: add-on appears to be coppupted<br />
-set extensions.allowPrivateBrowsingByDefault to false<br />
+set 'extensions.allowPrivateBrowsingByDefault' to false<br />
 2. Cloudflare: Infinite loop<br />
 Need to delete these strings from icecat.js in omni.jar:<br />
 pref("general.appname.override", "Netscape");<br />
@@ -28,3 +28,5 @@ pref("general.buildID.override", "Gecko/20100101");<br />
 pref("general.oscpu.override", "Windows NT 6.1");<br />
 pref("general.platform.override", "Win32");<br />
 It would be better to create a defect [here](https://lists.gnu.org/mailman/listinfo/bug-gnuzilla)<br />
+3. Unable to download files from Google Drive<br />
+set 'network.cookie.cookieBehavior' to 4
