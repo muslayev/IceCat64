@@ -18,7 +18,7 @@
 ### How to Update
 ![update](https://raw.githubusercontent.com/muslayev/iceweasel-win64/master/update.png)<br />
 ### How to fix some issues<br />
-1. Error: add-on appears to be coppupted<br />
+1. Error: add-on appears to be corrupted<br />
 set 'extensions.allowPrivateBrowsingByDefault' to false<br />
 2. Cloudflare: Infinite loop<br />
 Need to delete these strings from icecat.js in omni.jar:<br />
