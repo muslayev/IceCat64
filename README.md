@@ -19,7 +19,7 @@
 ![update](https://raw.githubusercontent.com/muslayev/iceweasel-win64/master/update.png)<br />
 ### How to fix some issues<br />
 1. Error: add-on appears to be corrupted<br />
-set 'extensions.allowPrivateBrowsingByDefault' to false<br />
+user_pref("extensions.allowPrivateBrowsingByDefault", false);
 2. Cloudflare: Infinite loop<br />
 Need to delete these strings from icecat.js in omni.jar:<br />
 pref("general.appname.override", "Netscape");<br />
@@ -29,4 +29,10 @@ pref("general.oscpu.override", "Windows NT 6.1");<br />
 pref("general.platform.override", "Win32");<br />
 It would be better to create a defect [here](https://lists.gnu.org/mailman/listinfo/bug-gnuzilla)<br />
 3. Unable to download files from Google Drive<br />
-set 'network.cookie.cookieBehavior' to 4
+user_pref("network.cookie.cookieBehavior", 4);
+4. Enable OpenH264 Video Codec
+user_pref("media.gmp-manager.url", "https://aus5.mozilla.org/update/3/GMP/%VERSION%/%BUILD_ID%/%BUILD_TARGET%/%LOCALE%/%CHANNEL%/%OS_VERSION%/%DISTRIBUTION%/%DISTRIBUTION_VERSION%/update.xml");
+user_pref("media.gmp-provider.enabled", true);
+user_pref("media.gmp-gmpopenh264.enabled", false);
+user_pref("media.gmp-widevinecdm.visible", true);
+user_pref("media.gmp-widevinecdm.enabled", true);
