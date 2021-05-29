@@ -35,5 +35,5 @@ user_pref("media.gmp-manager.url", "https://aus5.mozilla.org/update/3/GMP/%VERSI
 user_pref("media.gmp-provider.enabled", true);<br />
 user_pref("media.gmp-gmpopenh264.enabled", false);<br />
 5. Can't load any website when using AdNaseum
-user_pref("privacy.resistFingerprinting", false);
+user_pref("privacy.resistFingerprinting", false);<br />
 Then restart Icecat.
