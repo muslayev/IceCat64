@@ -2,7 +2,7 @@
 <p align="left">
   <a href="https://github.com/muslayev/icecat-win64/releases/latest" target="_blank"><img src="https://img.shields.io/github/release/muslayev/icecat-win64.svg"></a>
   <a href="https://github.com/muslayev/icecat-win64/releases/latest" target="_blank"><img src="https://img.shields.io/github/downloads/muslayev/icecat-win64/latest/total.svg"></a>
-  <a href="https://github.com/muslayev/icecat-win64/releases" target="_blank"><img src="https://img.shields.io/github/downloads/muslayev/icecat-win64/total.svg"></a>
+  <a href="https://github.com/muslayev/icecat-win64/releases" target="_blank"><img src="https://img.shields.io/github/downloads/muslayev/icecat-win64/total.svg"></a><br />
   <a href="https://dogechain.info/address/D69ChzD5TWrpdcTNL8sMfHimo2swriFz3R" target="_blank"><img src="https://img.shields.io/badge/DOGE_Donation-D69ChzD5TWrpdcTNL8sMfHimo2swriFz3R-yellow.svg"></a>
 </p>
 
@@ -19,7 +19,7 @@
 ### How to Update
 ![update](https://raw.githubusercontent.com/muslayev/iceweasel-win64/master/update.png)<br />
 ### How to fix some issues<br />
-1. Error: add-on appears to be corrupted<br />
+1. "Error: add-on appears to be corrupted"<br />
 user_pref("extensions.allowPrivateBrowsingByDefault", false);
 2. Cloudflare: Infinite loop<br />
 Need to delete these strings from icecat.js in omni.jar:<br />
