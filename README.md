@@ -3,6 +3,7 @@
   <a href="https://github.com/muslayev/icecat-win64/releases/latest" target="_blank"><img src="https://img.shields.io/github/release/muslayev/icecat-win64.svg"></a>
   <a href="https://github.com/muslayev/icecat-win64/releases/latest" target="_blank"><img src="https://img.shields.io/github/downloads/muslayev/icecat-win64/latest/total.svg"></a>
   <a href="https://github.com/muslayev/icecat-win64/releases" target="_blank"><img src="https://img.shields.io/github/downloads/muslayev/icecat-win64/total.svg"></a>
+  <a href="https://dogechain.info/address/D69ChzD5TWrpdcTNL8sMfHimo2swriFz3R" target="_blank"><img src="https://img.shields.io/badge/DOGE_Donation-D69ChzD5TWrpdcTNL8sMfHimo2swriFz3R-yellow.svg"></a>
 </p>
 
 # GNU IceCat (Unofficial builds for Windows x64)
