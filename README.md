@@ -29,10 +29,10 @@ pref("general.oscpu.override", "Windows NT 6.1");<br />
 pref("general.platform.override", "Win32");<br />
 It would be better to create a defect [here](https://lists.gnu.org/mailman/listinfo/bug-gnuzilla)<br />
 3. Unable to download files from Google Drive<br />
-user_pref("network.cookie.cookieBehavior", 4);
-4. Enable OpenH264 Video Codec
-user_pref("media.gmp-manager.url", "https://aus5.mozilla.org/update/3/GMP/%VERSION%/%BUILD_ID%/%BUILD_TARGET%/%LOCALE%/%CHANNEL%/%OS_VERSION%/%DISTRIBUTION%/%DISTRIBUTION_VERSION%/update.xml");
-user_pref("media.gmp-provider.enabled", true);
-user_pref("media.gmp-gmpopenh264.enabled", false);
-user_pref("media.gmp-widevinecdm.visible", true);
-user_pref("media.gmp-widevinecdm.enabled", true);
+user_pref("network.cookie.cookieBehavior", 4);<br />
+4. Enable OpenH264 Video Codec<br />
+user_pref("media.gmp-manager.url", "https://aus5.mozilla.org/update/3/GMP/%VERSION%/%BUILD_ID%/%BUILD_TARGET%/%LOCALE%/%CHANNEL%/%OS_VERSION%/%DISTRIBUTION%/%DISTRIBUTION_VERSION%/update.xml");<br />
+user_pref("media.gmp-provider.enabled", true);<br />
+user_pref("media.gmp-gmpopenh264.enabled", false);<br />
+user_pref("media.gmp-widevinecdm.visible", true);<br />
+user_pref("media.gmp-widevinecdm.enabled", true);<br />
