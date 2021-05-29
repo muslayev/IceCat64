@@ -7,7 +7,7 @@
 
 # GNU IceCat (Unofficial builds for Windows x64)
 ## Download
-[Releases](https://github.com/muslayev/icecat-win64/releases)<br /> or use [Chocolatey package manager](https://chocolatey.org/packages/icecat).<br />
+[Releases](https://github.com/muslayev/icecat-win64/releases) or use [Chocolatey package manager](https://chocolatey.org/packages/icecat).<br />
 ### Changes
 - Build [options](https://github.com/muslayev/iceweasel-win64/blob/master/mozconfig)
 - Update extension
