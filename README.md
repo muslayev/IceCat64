@@ -34,6 +34,6 @@ user_pref("network.cookie.cookieBehavior", 4);<br />
 user_pref("media.gmp-manager.url", "https://aus5.mozilla.org/update/3/GMP/%VERSION%/%BUILD_ID%/%BUILD_TARGET%/%LOCALE%/%CHANNEL%/%OS_VERSION%/%DISTRIBUTION%/%DISTRIBUTION_VERSION%/update.xml");<br />
 user_pref("media.gmp-provider.enabled", true);<br />
 user_pref("media.gmp-gmpopenh264.enabled", false);<br />
-5. Can't load any website when using AdNaseum
+5. Can't load any website when using AdNaseum<br />
 user_pref("privacy.resistFingerprinting", false);<br />
 Then restart Icecat.
